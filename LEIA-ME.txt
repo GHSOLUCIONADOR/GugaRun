@@ -1,0 +1,31 @@
+GUGA RUN - VERSAO OFFLINE PARA O TOTEM (Windows)
+
+COMO INSTALAR NO MINI PC
+1. Copie esta pasta inteira para o disco do mini PC, por exemplo C:\GUGA RUN
+   (nao rode a partir de um pendrive: o ranking fica salvo dentro desta pasta).
+2. Clique duas vezes em "ATIVAR INICIO AUTOMATICO.bat" (so uma vez).
+3. Clique duas vezes em "INICIAR GUGA RUN.bat" para abrir agora.
+   O jogo abre em tela cheia no Microsoft Edge, sem internet.
+   Para sair da tela cheia: ALT + F4.
+
+ONDE FICA O RANKING (pasta "dados")
+- ranking.json ............ ranking principal
+- ranking-copia.json ...... copia identica, gravada junto
+- backups\ ................ uma copia nova a cada partida salva (com data e hora)
+- historico-partidas.csv .. lista de TODAS as partidas, so acrescenta, nunca apaga
+                            (abre no Excel)
+- o navegador tambem guarda uma copia propria do ranking
+Se algum arquivo estragar, o jogo usa automaticamente a copia ou o ultimo backup.
+Se o servidor cair, o jogo continua funcionando e envia as partidas pendentes
+quando ele voltar.
+
+DICAS PARA O DIA DO EVENTO
+- Nas configuracoes de energia do Windows, deixe "Desligar a tela" e
+  "Suspender" como NUNCA.
+- Ao final do evento, copie a pasta "dados" para um pendrive como backup extra.
+- Para comecar o ranking do zero (depois dos testes): clique duas vezes em
+  "!!! DELETAR RANKING - APAGA TUDO !!!.bat" e digite APAGAR para confirmar.
+  O ranking antigo nao some: fica guardado em dados\ranking-apagado\ com data e hora.
+
+Se o Windows perguntar sobre o firewall na primeira vez, pode clicar em Cancelar:
+o jogo so usa o proprio computador (localhost).
